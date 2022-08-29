@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_3sdp"
+    app:cardCornerRadius="@dimen/_8sdp"
+    app:cardElevation="@dimen/_8sdp"
+    android:background="@color/white">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/hallImageView"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_90sdp"
+            android:background="@drawable/roundedittext"
+            android:src="@drawable/camera"
+            app:layout_constraintCircleRadius="@dimen/_15sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/btndetails"
+            app:layout_constraintEnd_toStartOf="@+id/tvdesc"
+            android:layout_margin="8dp"/>
+
+
+
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Home Renovation"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15ssp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.065"
+            app:layout_constraintStart_toEndOf="@+id/hallImageView"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvdesc"
+            android:layout_width="@dimen/_180sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:lines="5"
+            android:text="jkdhfjdkshfdkjsfhjksd"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_13ssp"
+            android:layout_marginRight="@dimen/_5sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+
+
+        <TextView
+            android:id="@+id/btndetails"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_28sdp"
+            android:background="@drawable/roundedittext"
+            android:backgroundTint="@color/orange"
+            android:gravity="center"
+            android:text="View Details"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/_17sdp"
+            android:textSize="@dimen/_13ssp"
+            android:textStyle="bold"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_16sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@id/tvdesc" />
+
+
+
+        <TextView
+            android:id="@+id/tvv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginTop="8dp"
+            android:text=""
+            android:textStyle="bold"
+            android:visibility="invisible"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15ssp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/phonehall"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:visibility="gone"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/caphall"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:visibility="gone"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/inhall"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:visibility="gone"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/outhall"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:visibility="gone"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dechall"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:visibility="gone"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/renthall"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:visibility="gone"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pavhall"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:visibility="gone"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/adddhall"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:visibility="gone"/>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</androidx.cardview.widget.CardView>

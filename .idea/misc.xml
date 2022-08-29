@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/HallBooking/app/src/main/res/drawable/bottomnav.xml" value="0.1215" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/HallBooking/app/src/main/res/drawable/circle.xml" value="0.142" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/HallBooking/app/src/main/res/drawable/fav_image.xml" value="0.142" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/HallBooking/app/src/main/res/drawable/fav_image_fill.xml" value="0.142" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/HallBooking/app/src/main/res/drawable/ic_baseline_credit_card_24.xml" value="0.1215" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/HallBooking/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.144" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/HallBooking/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.144" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/HallBooking/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.1215" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/HallBooking/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.144" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/HallBooking/app/src/main/res/drawable/ic_homes.xml" value="0.1225" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/HallBooking/app/src/main/res/drawable/ic_pencil24.xml" value="0.1215" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/HallBooking/app/src/main/res/layout/activity_admin_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/HallBooking/app/src/main/res/layout/activity_all_users.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/HallBooking/app/src/main/res/layout/activity_booked_halls.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/HallBooking/app/src/main/res/layout/activity_edit_halls.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/HallBooking/app/src/main/res/layout/activity_hall_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/HallBooking/app/src/main/res/layout/activity_main.xml" value="0.18518518518518517" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/HallBooking/app/src/main/res/layout/activity_new_halls.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/HallBooking/app/src/main/res/layout/activity_select_user.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/HallBooking/app/src/main/res/layout/activity_signup.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/HallBooking/app/src/main/res/layout/activity_splash.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/HallBooking/app/src/main/res/layout/activity_splash_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/HallBooking/app/src/main/res/layout/activity_total_halls.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/HallBooking/app/src/main/res/layout/activity_user_details.xml" value="0.14629629629629629" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/HallBooking/app/src/main/res/layout/activity_user_home.xml" value="0.1" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/HallBooking/app/src/main/res/layout/activity_user_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/HallBooking/app/src/main/res/layout/fragment_d_etails.xml" value="0.1943359375" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/HallBooking/app/src/main/res/layout/fragment_details.xml" value="0.18425925925925926" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/HallBooking/app/src/main/res/layout/fragment_favorites.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/HallBooking/app/src/main/res/layout/fragment_halls.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/HallBooking/app/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/HallBooking/app/src/main/res/layout/fragment_profile.xml" value="0.18425925925925926" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/HallBooking/app/src/main/res/layout/fragment_profile_edit.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/HallBooking/app/src/main/res/layout/fragment_show_halls.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/HallBooking/app/src/main/res/layout/hall_row.xml" value="0.1824074074074074" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/HallBooking/app/src/main/res/layout/user_row.xml" value="0.18" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/HallBooking/app/src/main/res/layout/userhall_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/HallBooking/app/src/main/res/menu/bottomnav.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/HallBooking/app/src/main/res/menu/menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Ali Mirza/AndroidStudioProjects/HallBooking/app/src/main/res/menu/menus.xml" value="0.18425925925925926" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

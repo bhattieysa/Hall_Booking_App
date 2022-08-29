@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HallDetails"
+    android:background="@drawable/bgjob">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <ImageView
+                android:id="@+id/prflimageflimage"
+                android:layout_width="@dimen/_300sdp"
+                android:layout_height="@dimen/_300sdp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/roundedittext"
+                android:scaleType="fitXY"
+                android:backgroundTint="@color/bg"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/camera" />
+
+
+            <RelativeLayout
+                android:id="@+id/rel1"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/jobtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:text="Hall Name"
+                    android:textColor="@color/orange"
+                    android:textSize="@dimen/_15ssp"
+                    android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:layout_below="@id/jobtitle"
+                    android:background="@drawable/roundedittext"
+                    android:backgroundTint="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_marginHorizontal="@dimen/_10sdp"
+                    android:layout_height="@dimen/_40sdp">
+
+                    <TextView
+                        android:id="@+id/ettitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginHorizontal="@dimen/_3sdp"
+                        android:background="@color/purple_500"
+                        android:hint="Name"
+                        android:inputType="textPersonName"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_13ssp" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rel2"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:text="Description"
+                    android:textColor="@color/orange"
+                    android:textSize="@dimen/_15ssp"
+                    android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:layout_below="@id/textView3"
+                    android:background="@drawable/roundedittext"
+                    android:layout_width="match_parent"
+                    android:backgroundTint="@color/white"
+                    android:layout_marginHorizontal="@dimen/_10sdp"
+                    android:layout_height="@dimen/_140sdp">
+
+                    <TextView
+                        android:id="@+id/etdesc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/_3sdp"
+                        android:background="@color/purple_500"
+                        android:gravity="top|left"
+                        android:hint="Description"
+                        android:inputType="textMultiLine"
+                        android:lines="5"
+                        android:maxLines="10"
+                        android:scrollbarAlwaysDrawVerticalTrack="true"
+                        android:scrollbars="vertical"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_13ssp" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rel3"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/jobloc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:text="Address"
+                    android:textColor="@color/orange"
+                    android:textSize="@dimen/_15ssp"
+                    android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:layout_below="@id/jobloc"
+                    android:background="@drawable/roundedittext"
+                    android:layout_width="match_parent"
+                    android:layout_marginHorizontal="@dimen/_10sdp"
+                    android:layout_height="@dimen/_40sdp">
+
+                    <TextView
+                        android:id="@+id/etloc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginHorizontal="@dimen/_3sdp"
+                        android:background="@color/purple_500"
+                        android:hint="City, Adress"
+                        android:inputType="textPersonName"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_13ssp" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rel7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:id="@+id/rel5"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:text="Indoor Halls"
+                        android:textColor="@color/orange"
+                        android:textSize="@dimen/_15ssp"
+                        android:textStyle="bold" />
+
+                    <RelativeLayout
+                        android:layout_below="@id/time"
+                        android:background="@drawable/roundedittext"
+                        android:layout_width="@dimen/_155sdp"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        android:layout_height="@dimen/_40sdp">
+
+                        <TextView
+                            android:id="@+id/etin"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginHorizontal="@dimen/_3sdp"
+                            android:background="@color/purple_500"
+                            android:hint="0"
+                            android:inputType="textPersonName"
+                            android:textAlignment="center"
+                            android:scrollbars="horizontal"
+                            android:singleLine="true"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_13ssp" />
+                    </RelativeLayout>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/rel6"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true">
+
+                    <TextView
+                        android:id="@+id/budget"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_15sdp"
+                        android:text="Outdoor Halls"
+                        android:textColor="@color/orange"
+                        android:textSize="@dimen/_15sdp"
+                        android:textStyle="bold" />
+
+                    <RelativeLayout
+                        android:layout_below="@id/budget"
+                        android:background="@drawable/roundedittext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_marginHorizontal="@dimen/_10sdp"
+                        >
+
+                        <TextView
+                            android:layout_centerVertical="true"
+                            android:background="@color/purple_500"
+                            android:id="@+id/etout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="textPersonName"
+                            android:hint="0"
+                            android:textAlignment="center"
+                            android:gravity="center"
+                            android:textSize="@dimen/_13ssp"
+                            android:textColor="@color/black"
+                            android:scrollbars="horizontal"
+                            android:singleLine="true"
+                            android:layout_marginHorizontal="@dimen/_3sdp"/>
+                    </RelativeLayout>
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:id="@+id/rel8"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/hallcapacity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:text="Hall Capacity"
+                    android:textColor="@color/orange"
+                    android:textSize="@dimen/_15ssp"
+                    android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:layout_below="@id/hallcapacity"
+                    android:background="@drawable/roundedittext"
+                    android:backgroundTint="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_marginHorizontal="@dimen/_10sdp"
+                    android:layout_height="@dimen/_40sdp">
+
+                    <TextView
+                        android:id="@+id/ethalcap"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginHorizontal="@dimen/_3sdp"
+                        android:background="@color/purple_500"
+                        android:hint="CApacity"
+                        android:inputType="textPersonName"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_13ssp" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:id="@+id/rel9"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/halpav"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:text="Photo And Video"
+                    android:textColor="@color/orange"
+                    android:textSize="@dimen/_15ssp"
+                    android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:layout_below="@id/halpav"
+                    android:background="@drawable/roundedittext"
+                    android:backgroundTint="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_marginHorizontal="@dimen/_10sdp"
+                    android:layout_height="@dimen/_40sdp">
+
+                    <TextView
+                        android:layout_centerVertical="true"
+                        android:background="@color/purple_500"
+                        android:textColor="@color/black"
+                        android:id="@+id/ethalpav"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:hint="Enter job Title"
+                        android:textSize="@dimen/_13ssp"
+                        android:layout_marginHorizontal="@dimen/_3sdp"/>
+                </RelativeLayout>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/rel10"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/race"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:text="Rent Car Service"
+                    android:textColor="@color/orange"
+                    android:textSize="@dimen/_15ssp"
+                    android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:layout_below="@id/race"
+                    android:background="@drawable/roundedittext"
+                    android:backgroundTint="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_marginHorizontal="@dimen/_10sdp"
+                    android:layout_height="@dimen/_40sdp">
+
+                    <TextView
+                        android:layout_centerVertical="true"
+                        android:background="@color/purple_500"
+                        android:textColor="@color/black"
+                        android:id="@+id/etrace"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:hint="Enter job Title"
+                        android:textSize="@dimen/_13ssp"
+                        android:layout_marginHorizontal="@dimen/_3sdp"/>
+                </RelativeLayout>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/rel11"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/extray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:text="Extra Decorations"
+                    android:textColor="@color/orange"
+                    android:textSize="@dimen/_15ssp"
+                    android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:layout_below="@id/extray"
+                    android:background="@drawable/roundedittext"
+                    android:backgroundTint="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_marginHorizontal="@dimen/_10sdp"
+                    android:layout_height="@dimen/_40sdp">
+
+                    <TextView
+                        android:id="@+id/etextray"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginHorizontal="@dimen/_3sdp"
+                        android:background="@color/purple_500"
+                        android:hint="Enter job Title"
+                        android:inputType="textPersonName"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_13ssp" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:id="@+id/rel12"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/hhalphone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:text="Phone"
+                    android:textColor="@color/orange"
+                    android:textSize="@dimen/_15ssp"
+                    android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:layout_below="@id/hhalphone"
+                    android:background="@drawable/roundedittext"
+                    android:backgroundTint="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_marginHorizontal="@dimen/_10sdp"
+                    android:layout_height="@dimen/_40sdp">
+
+                    <TextView
+                        android:layout_centerVertical="true"
+                        android:background="@color/purple_500"
+                        android:textColor="@color/black"
+                        android:id="@+id/etphone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:hint="123456789"
+                        android:textSize="@dimen/_13ssp"
+                        android:layout_marginHorizontal="@dimen/_3sdp"/>
+                </RelativeLayout>
+            </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/ic_baseline_edit_24"
+        android:id="@+id/edthal"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

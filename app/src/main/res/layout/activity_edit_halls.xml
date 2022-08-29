@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditHalls"
+    android:background="@drawable/bgjob">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Edit Halls"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_30ssp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.09" />
+
+
+
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Hall Name"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_15ssp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/title" />
+
+                <RelativeLayout
+                    android:id="@+id/layout1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv1"
+                    app:layout_constraintVertical_bias="0.047"
+                    >
+
+                    <RelativeLayout
+                        android:id="@+id/rel1"
+                        android:layout_width="@dimen/_320sdp"
+                        android:layout_height="@dimen/_50sdp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginRight="@dimen/_20sdp"
+                        android:background="@drawable/signup"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <EditText
+                            android:id="@+id/hallname"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginHorizontal="@dimen/_20sdp"
+                            android:hint="Hall Name"
+                            android:inputType="textPersonName"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/white"
+                            android:textSize="@dimen/_13ssp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.82"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.023" />
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+
+
+
+                <TextView
+                    android:id="@+id/tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Hall Address"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_15ssp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/layout1" />
+
+                <RelativeLayout
+                    android:id="@+id/layout2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv2"
+                    app:layout_constraintVertical_bias="0.0">
+
+                    <RelativeLayout
+                        android:id="@+id/rel2"
+                        android:layout_width="@dimen/_320sdp"
+                        android:layout_height="@dimen/_50sdp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginRight="@dimen/_20sdp"
+                        android:background="@drawable/signup"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.023">
+
+                        <EditText
+                            android:id="@+id/halladdress"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginHorizontal="@dimen/_20sdp"
+                            android:hint="Address"
+                            android:inputType="textPersonName"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/white"
+                            android:textSize="@dimen/_13ssp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.82"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.023"
+                            app:passwordToggleEnabled="true" />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+
+
+                <TextView
+                    android:id="@+id/tv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Hall Contact"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_15ssp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/layout2" />
+
+                <RelativeLayout
+                    android:id="@+id/layout3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv3"
+                    app:layout_constraintVertical_bias="0.0">
+
+                    <RelativeLayout
+                        android:id="@+id/rel3"
+                        android:layout_width="@dimen/_320sdp"
+                        android:layout_height="@dimen/_50sdp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginRight="@dimen/_20sdp"
+                        android:background="@drawable/signup"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.023">
+
+                        <EditText
+                            android:id="@+id/hallphone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginHorizontal="@dimen/_20sdp"
+                            android:hint="Phone"
+                            android:inputType="phone"
+                            android:maxLength="11"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/white"
+                            android:textSize="@dimen/_13ssp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.82"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.023" />
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+
+
+                <TextView
+                    android:id="@+id/tv4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Indoor Halls"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_15ssp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/layout3" />
+
+
+                <RelativeLayout
+                    android:id="@+id/layout4"
+                    android:layout_width="@dimen/_120sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv4"
+                    app:layout_constraintVertical_bias="0.0">
+
+                    <RelativeLayout
+                        android:id="@+id/rel4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginRight="@dimen/_20sdp"
+                        android:background="@drawable/signup"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.023">
+
+                        <EditText
+                            android:id="@+id/indoor"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginHorizontal="@dimen/_20sdp"
+                            android:hint="0"
+                            android:inputType="number"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/white"
+                            android:textSize="@dimen/_13ssp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.82"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.023"
+                            app:passwordToggleEnabled="true" />
+
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+
+                <TextView
+                    android:id="@+id/tv5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Outdoor Halls"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_15ssp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/layout3" />
+
+                <RelativeLayout
+                    android:id="@+id/layout5"
+                    android:layout_width="@dimen/_120sdp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    app:layout_constraintTop_toBottomOf="@id/tv5"
+                    app:layout_constraintVertical_bias="0.0">
+
+                    <RelativeLayout
+                        android:id="@+id/rel5"
+                        android:layout_width="@dimen/_320sdp"
+                        android:layout_height="@dimen/_50sdp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginRight="@dimen/_20sdp"
+                        android:background="@drawable/signup"
+
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.023">
+
+                        <EditText
+                            android:id="@+id/outdoor"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginHorizontal="@dimen/_20sdp"
+                            android:hint="0"
+                            android:inputType="number"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/white"
+                            android:textSize="@dimen/_13ssp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.82"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.023"
+                            app:passwordToggleEnabled="true" />
+
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+
+                <TextView
+                    android:id="@+id/tv6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Hall Capacity"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_15ssp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/layout4" />
+
+
+                <RelativeLayout
+                    android:id="@+id/layout6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv6"
+                    app:layout_constraintVertical_bias="0.0">
+
+                    <RelativeLayout
+                        android:id="@+id/rel6"
+                        android:layout_width="@dimen/_320sdp"
+                        android:layout_height="@dimen/_50sdp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginRight="@dimen/_20sdp"
+                        android:background="@drawable/signup"
+
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.023">
+
+                        <EditText
+                            android:id="@+id/hallcap"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginHorizontal="@dimen/_20sdp"
+                            android:hint="Capacity"
+                            android:inputType="number"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/white"
+                            android:textSize="@dimen/_13ssp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.82"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.023"
+                            app:passwordToggleEnabled="true" />
+
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+
+
+
+
+
+                <TextView
+                    android:id="@+id/tv8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Photographs And Videographs"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_15ssp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/layout6" />
+
+                <RelativeLayout
+                    android:id="@+id/layout8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv8"
+                    app:layout_constraintVertical_bias="0.0">
+
+                    <RelativeLayout
+                        android:id="@+id/rel8"
+                        android:layout_width="@dimen/_320sdp"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginHorizontal="@dimen/_20sdp"
+                        android:layout_marginRight="@dimen/_20sdp"
+                        android:background="@drawable/roundedittext"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.023">
+
+                        <Spinner
+                            android:id="@+id/spinnerpav"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginHorizontal="@dimen/_20sdp"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_15ssp" />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+
+
+
+                <TextView
+                    android:id="@+id/tv9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Rent A Car Service"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_15ssp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/layout8" />
+
+                <RelativeLayout
+                    android:id="@+id/layout9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv9"
+                    app:layout_constraintVertical_bias="0.0">
+
+                    <RelativeLayout
+                        android:id="@+id/rel9"
+                        android:layout_width="@dimen/_320sdp"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginHorizontal="@dimen/_20sdp"
+                        android:layout_marginRight="@dimen/_20sdp"
+                        android:background="@drawable/roundedittext"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.023">
+
+                        <Spinner
+                            android:id="@+id/spinnerrace"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginHorizontal="@dimen/_20sdp"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_15ssp" />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+
+                <TextView
+                    android:id="@+id/tv10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Extra Decoration"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_15ssp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/layout9" />
+
+                <RelativeLayout
+                    android:id="@+id/layout10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv10"
+                    app:layout_constraintVertical_bias="0.0">
+
+                    <RelativeLayout
+                        android:id="@+id/rel10"
+                        android:layout_width="@dimen/_320sdp"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginHorizontal="@dimen/_20sdp"
+                        android:layout_marginRight="@dimen/_20sdp"
+                        android:background="@drawable/roundedittext"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.023">
+
+                        <Spinner
+                            android:id="@+id/spinnerdecorate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginHorizontal="@dimen/_20sdp"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_15ssp" />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+
+
+                <TextView
+                    android:id="@+id/tv12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Status"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_15ssp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/layout10" />
+
+                <RelativeLayout
+                    android:id="@+id/layout12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv12"
+                    app:layout_constraintVertical_bias="0.0">
+
+                    <RelativeLayout
+                        android:id="@+id/rel12"
+                        android:layout_width="@dimen/_320sdp"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginHorizontal="@dimen/_20sdp"
+                        android:layout_marginRight="@dimen/_20sdp"
+                        android:background="@drawable/roundedittext"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.023">
+
+                        <Spinner
+                            android:id="@+id/spinnerstatus"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginHorizontal="@dimen/_20sdp"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_15ssp" />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+
+
+
+                <TextView
+                    android:id="@+id/tv11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Description"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_15ssp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/layout12" />
+
+
+                <RelativeLayout
+                    android:id="@+id/layout11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tv11"
+                    >
+
+                    <RelativeLayout
+                        android:id="@+id/rel11"
+                        android:layout_width="@dimen/_320sdp"
+                        android:layout_height="@dimen/_140sdp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginRight="@dimen/_20sdp"
+                        android:background="@drawable/signup"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <EditText
+                            android:id="@+id/fooditems"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginHorizontal="@dimen/_20sdp"
+                            android:gravity="top|left"
+                            android:hint="About food items and functions etc"
+                            android:inputType="textMultiLine"
+                            android:lines="5"
+                            android:maxLines="10"
+                            android:scrollbarAlwaysDrawVerticalTrack="true"
+                            android:scrollbars="vertical"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/white"
+                            android:textSize="@dimen/_13ssp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.82"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.023"
+                            app:passwordToggleEnabled="true" />
+
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+
+                <TextView
+                    android:id="@+id/registerbtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/login"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:inputType="textPersonName"
+                    android:text="Update"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_13ssp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/layout11" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

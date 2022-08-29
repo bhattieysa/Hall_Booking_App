@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "808585203422",
+    "project_id": "hallbooking-de23d",
+    "storage_bucket": "hallbooking-de23d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808585203422:android:d4952a5210def2d1d4bc4f",
+        "android_client_info": {
+          "package_name": "com.example.hallbooking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808585203422-csasbfub0lv1f5dt6o3h6t03ltvp57nu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAA_qTQ9pxpbN3-qOfFYCpFQ8M1O9Hs9Wc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808585203422-csasbfub0lv1f5dt6o3h6t03ltvp57nu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
